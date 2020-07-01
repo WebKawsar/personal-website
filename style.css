@@ -1,0 +1,258 @@
+/******************** Header Area Starts Here *****************/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-area {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+.header-area .container {
+    width: 80%;
+    margin: auto;
+    padding: 150px 0;
+}
+
+.header-area .welcome-text {
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+}
+
+.header-area .welcome-text h1:first-child {
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 40px;
+    margin: 0;
+}
+
+.header-area .welcome-text h1:nth-child(2n) {
+    color: #ec4c7a;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 50px;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+.header-area .welcome-text p {
+    color: dimgray;
+    margin: 45px 0 40px;
+}
+
+.header-area .welcome-text .link-button {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ec4c7a;
+    padding: 10px 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.header-area .profile-me {
+    width: 40%;
+    overflow: hidden;
+}
+
+.header-area .profile-me img {
+    width: 100%;
+    height: auto;
+}
+
+/******************** Header Area End Here *****************/
+
+
+
+/**************** Biography Area Starts Here ***************/
+
+.biography-area {
+    background-image: url("images/biography-bg.png");
+}
+
+.biography-area .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 150px 0;
+}
+
+.biography-area .biography-profile {
+    width: 40%;
+    float: left;
+}
+
+.biography-area .biography-profile img {
+    width: 100%;
+    height: auto;
+}
+
+.biography-area .biography-text {
+    overflow: hidden;
+    width: 50%;
+    float: right;
+    margin-top: 100px;
+}
+
+.biography-area .biography-text h2 {
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.biography-area .biography-text p {
+    color: dimgray;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.biography-area .biography-text .link-button {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ec4c7a;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+/**************** Biography Area End Here ***************/
+
+
+
+/************* Portfolio Area Starts Here ***************/
+
+.portfolio-area {
+	background-image: url("images/latest-work-bg.png");
+	background-position: -308px -18px;
+}
+
+.portfolio-area .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 100px 0 150px;
+}
+
+.portfolio-area h2 {
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.portfolio-area .portfolio-section {
+    float: left;
+    width: 29%;
+    margin: 0 1%;
+}
+
+.portfolio-area .portfolio-section img {
+    width: 100%;
+
+}
+
+/************* Portfolio Area End Here ***************/
+
+
+/************* Client Area Start Here ****************/
+
+.client-area {
+    text-align: center;
+    padding: 80px 100px 150px;
+    background-image: url("images/footer-bg.png");
+}
+
+.client-area h1 {
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+.client-area .client-details {
+    width: 35%;
+    margin: 130px auto 0;
+}
+
+.client-area .client-details h3 {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.client-area .client-details img {
+    border-radius: 50%;
+}
+
+.client-area .client-details small {
+    text-transform: capitalize;
+    display: block;
+    font-weight: normal;
+    color: dimgray;
+    margin: 10px 0 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.client-area .client-details p {
+    color: black;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.client-area .message-area {
+    background-color: #ec4c7a;
+    width: 60%;
+    margin: 80px auto 0;
+    border-radius: 10px;
+    padding: 30px 0;
+    color: white;
+    
+}
+
+.client-area .message-area:hover {
+    opacity: .95;
+}
+
+.client-area .message-area h5 {
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.client-area .message-area h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.footer-area p {
+    text-align: center;
+    text-transform: capitalize;
+    color: #666666;
+}
+
+.footer-area .text-highlight {
+    color: #EC4C7A;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+/************* Client Area End Here ****************/
